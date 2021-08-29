@@ -1,0 +1,29 @@
+import '../models/faqs_defenation.dart';
+
+var legalTerms = [
+  FAQ(
+      answers:
+          'The User must undertake to adhere to the eligibility to enter into a contract in view of section 11 of The Indian Contract Act, 1872. The User shall agree to represent and warrant that the User is at the age of 18 or above and is fully able and competent to understand and agree the terms, conditions, obligations, affirmations, representation, and warranties as set forth in this Agreement.Both the User and the Food Delivery Platform must be in compliance with all laws and regulations in the country in which they live while accessing and using the Service. The User must agree to use the Services only in compliance with terms & conditions, applicable law, and in a manner that does not violate legal rights or those of any third party/parties.',
+      id: '1',
+      questions: 'Compliance of Law'),
+  FAQ(
+      answers:
+          'The User shall request to order food and beverages from a seller by clicking on ‘Place Order’ tab on seller page on the FDP shall constitute an unconditional and irrevocable authorization issued in favor of FDP to place online orders for food and beverages against the seller on User’s behalf. An order, once placed on behalf of User by the FDP and accepted by a seller constitutes a separate contract of sale of goods under the Sale of Goods Act,1930 and the Consumer Protection Act, 2019 or any successor legislation between the seller and the User, to which the Food Delivery Platform shall not be a party. 2. The User must warrant that while placing an order the details like contact number, delivery address, etc. are accurate and correct. By providing these details, the User expresses his/her acceptance of FDP’s terms and conditions and privacy policies.',
+      id: '2',
+      questions: 'TERMS OF USE FOR CUSTOMER  '),
+  FAQ(
+      answers:
+          '•	The User must acknowledge that any cancellation or attempted or purported cancellation of an Order shall amount to a breach of User’s unconditional and irrevocable authorization in favor of the Food Delivery Platform to place that Order against the seller on User’s behalf (“Authorization Breach”).•	In the event the User commits an Authorization Breach, the User shall be liable to pay the liquidated damages of an amount equivalent to the Order Value. The User must undertake to authorize FDP to deduct or collect the amount payable as liquidating damages through such means as Food Delivery Platform may determine in its discretion, including without limitation, by deducting such amount from the payment made towards User’s next order.•	The FDP shall not facilitate replacements/ refunds/ or any other resolution without seller permission. All refunds shall be processed in the same manner as they are received, unless refunds have been provided to the User in the form of credits, the refund amount will reflect in User’s account based on respective bank policies ',
+      id: '3',
+      questions: 'CANCELLATION OF ORDER'),
+  FAQ(
+      answers:
+          'i) One shall have the access to the Platform by registering to create an account for the (Food Delivery Platform“) and become a member; or shall be able register to himself join by logging into your account with certain third-party social networking sites (” SNS”) (including, but not limited to, Facebook); each such account, a ” Third Party Account”, via our Platform.ii) The Membership is limited for the purpose and are subject to the terms, and strictly not transferable. As part of the functionality of the Platform services, one shall be able to may link FDP   Account with Third-Party Accounts, by either:iii)  Providing your Third Party Account login information to us through the Platform; or iv) Allowing us to access their Third-Party Account, as is permitted under the applicable terms and conditions that govern your use of each Third-Party Account. v) The user shall represent that you are entitled to disclose your Third Party Account login information to us and/or grant the FDP access to your Third-Party Account (including, but not limited to, for use for the purposes described herein), without breach of any of the terms and conditions that govern your use of the applicable Third-Party Account and without obligating them to pay any fees or making us subject to any usage limitations imposed by such third-party service providers',
+      id: '4',
+      questions: 'ACCOUNT REGISTRATION ON THE PLATFORM'),
+  FAQ(
+      answers:
+          'I. Refunds A.  The user  shall be entitled to a refund only if you pre-pay for your order at the time of placing your order on the Platform and only in the event of any of the following circumstances: 1.    The  order packaging has been tampered or damaged at the time of delivery; 2. The user cancels the order due to: (a) Your delivery location following outside our designated delivery zones; (b) Failure to contact you by phone or email at the time of confirming the order booking; or (c) Failure to contact you by phone or email at the time of confirming the order booking, or  (d) Where the user cancels the order at the time of confirmation due to unavailability of the items you ordered for at the time of booking.  B) The decision on refunds shall be at the sole discretion of the Food Delivery Platform and shall be final and binding.   C) All refund amounts shall be credited to your account within 3-4 business days in accordance with the terms that may be stipulated by the bank which has issued the credit/debit card.  II.  PAYMENTS:  In case of payment at the time of delivery, the user shall not be required to pay for:  a) Orders where the packaging has been tampered or damaged by us; b) Wrong order being delivered; or  c) Items missing from your order at the time of delivery.',
+      id: '5',
+      questions: 'PAYMENTS & REFUNDS '),
+];
